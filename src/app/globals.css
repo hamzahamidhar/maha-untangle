@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-brand: #0000c9;
+  --color-brand-soft: #eef0ff;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  background: #f6f7fb;
+  color: #14161f;
+}
+
+mark.hit {
+  background: #fff1a8;
+  color: inherit;
+  border-radius: 3px;
+  padding: 0 2px;
+}
